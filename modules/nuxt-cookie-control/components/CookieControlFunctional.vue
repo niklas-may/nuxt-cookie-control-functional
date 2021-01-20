@@ -96,6 +96,7 @@ export default {
     this.$cookies.checkCookieStatus = this.checkCookieStatus
     this.$cookies.toggleModal = this.toggleModal
     this.$cookies.showModal = this.showModal
+    this.$cookies.showBar = this.showBar
     this.$cookies.toggleCookie = this.toogleCookie
     this.$cookies.setConsentModal = this.setConsent
     this.$cookies.getCookieFirstName = this.getCookieFirstName
@@ -110,6 +111,10 @@ export default {
     showModal() {
       this.show = true
       this.cookies.modal = true
+    },
+    showBar() {
+      this.show = true
+      this.cookies.modal = false
     },
     toggleModal() {
       this.cookies.modal = !this.cookies.modal

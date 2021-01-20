@@ -51,7 +51,6 @@ export default {
   
 
   &__wrapper {
-    padding-bottom: env(safe-area-inset-bottom, 0);
     width: 100%;
 
     .btn {

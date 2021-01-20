@@ -10,7 +10,8 @@
 **Core changes and additions**
 - A wrapper component that exposes data / functions via slot props `<cookie-control-functional />`.
 - Additional functions in the global `$cookies` object.
-- Module can now process `accepted` and `declined` function as a string (necessary when provided by a backend) 
+- The Module can now process `accepted` and `declined` function when passed as a string (necessary when provided by a backend) 
+- Check "/components/cookieControl/cookieControl.vue" to see how all works
 
 Ideally it should be merged with the original module...
 

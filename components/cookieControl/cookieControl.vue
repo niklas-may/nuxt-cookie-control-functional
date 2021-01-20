@@ -111,20 +111,27 @@ export default {
     pointer-events: none;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
-    transition: all 400ms cubic-bezier(0.22, 1, 0.36, 1);
+
+     transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
+
 
     &.v-enter,
     &.v-leave-to {
       transform: translate3d(0, 100%, 0);
+      transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
+
     }
 
     &.v-leave-to,
     &.v-enter {
       transform: translate3d(0, 100%, 0);
+      transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
     }
 
     &.v-leave {
       transform: translate3d(0, 0, 0);
+      transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
+
     }
   }
 

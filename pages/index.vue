@@ -1,14 +1,14 @@
 <template>
     <div class="page-content">
       <h1 class="title">
-        Cookie Control Functional
+       <a href="https://github.com/niklas-may/nuxt-cookie-control-functional"> Cookie Control Functional</a>
       </h1>
       <div class="links">
         <br>
         <a
           href="javascript:$nuxt.$cookies.showModal()"
         >
-          Change Settings afterwards from anywhere 
+          Change ettings afterwards from anywhere 
         </a>
         </a>
       </div>

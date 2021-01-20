@@ -2,6 +2,7 @@
   <cookie-control-functional
     v-slot="{ isReady, show, modal, cookies }"
     locale="de"
+    :reloadDelay="600"
     :override-optional-cookies="cookiesOverride.optional"
     :override-necessary-cookies="cookiesOverride.necessary"
     :overrid-expiration-date="cookiesOverride.expirationDate"

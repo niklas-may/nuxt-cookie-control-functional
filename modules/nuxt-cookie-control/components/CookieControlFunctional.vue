@@ -34,6 +34,10 @@ export default {
       type: Number,
       default: undefined,
     },
+    reloadDelay: {
+      type: Number,
+      default: 250,
+    },
   },
   data() {
     return {
@@ -152,7 +156,7 @@ export default {
       } else {
         setTimeout(() => {
           window.location.reload(true)
-        }, 250)
+        }, this.$props.reloadDelay)
       }
 
       this.toggleModal()

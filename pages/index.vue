@@ -8,7 +8,7 @@
         <a
           href="javascript:$nuxt.$cookies.showModal()"
         >
-          Change ettings afterwards from anywhere 
+          Change settings afterwards from anywhere 
         </a>
       </div>
     </div>

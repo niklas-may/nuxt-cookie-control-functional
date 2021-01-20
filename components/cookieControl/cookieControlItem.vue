@@ -4,6 +4,7 @@
     :class="[necessary && 'cookie-control__item--necessary']"
   >
     <input
+      class="checkbox"
       type="checkbox"
       :id="cookie.name"
       :checked="necessary || $cookies.checkCookieStatus(cookie.name)"
@@ -49,6 +50,12 @@ export default {
   text-indent: 0;
   list-style-type: 0;
 
+  input[type=checkbox] {
+    min-width: 1rem;
+    height: 1rem;
+    border: 2px solid pink;
+    // -webkit-appearance: none;
+  }
 
   display: flex;
   &--necessary {

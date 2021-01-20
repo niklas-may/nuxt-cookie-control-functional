@@ -42,9 +42,8 @@ export default {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   background-color: #181818;
-  height: 100%;
-  flex: 0;
-  transition: all 400ms cubic-bezier(0.36, 1, 0.22, 1);
+  max-height: 0;
+  transition: max-height 400ms cubic-bezier(0.36, 1, 0.22, 1);
 
   ul {
     list-style: none;
@@ -53,8 +52,8 @@ export default {
   }
 
   &--expand {
-    flex: 1;
-    height: 0;
+    max-height: 100%;
+    height:auto;
   }
 
   &__section {

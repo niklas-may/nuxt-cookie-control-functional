@@ -85,7 +85,7 @@ export default {
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: rgba(yellow, 0.5);
+    background-color: rgba(black, 0.5);
     pointer-events: none;
     opacity: 0;
     transition: all 400ms cubic-bezier(0.36, 1, 0.22, 1);
@@ -99,6 +99,7 @@ export default {
     display: flex;
     justify-content: center;
     
+
     position: fixed;
     z-index: 1000;
     bottom: 1rem;
@@ -107,7 +108,7 @@ export default {
     padding: 0 1rem;
     width: 100%;
     max-height: 75vh;
-    
+    margin-bottom: env(safe-area-inset-bottom, 0);
 
     pointer-events: none;
     overflow: hidden;

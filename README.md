@@ -15,7 +15,8 @@
 Ideally it should be merged with the original module...
 
 ## Demo
-[Check the custom component](nuxt-cookie-control-functional.netlify.app)
+[Check the custom component](https://nuxt-cookie-control-functional.netlify.app)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/52056f74-a565-4edb-a211-a8f3cd70ddd2/deploy-status)](https://app.netlify.com/sites/nuxt-cookie-control-functional/deploys)
 ## Usage
 

@@ -10,7 +10,6 @@
         >
           Change ettings afterwards from anywhere 
         </a>
-        </a>
       </div>
     </div>
 </template>
@@ -22,6 +21,7 @@ export default {
 <style >
 .page-content {
   padding: 1rem;
+  height: 125vh;
 }
 
 </style>

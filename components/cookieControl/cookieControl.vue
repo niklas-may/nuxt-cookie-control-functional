@@ -118,14 +118,14 @@ export default {
 
     &.v-enter,
     &.v-leave-to {
-      transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 150%, 0);
       transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
 
     }
 
     &.v-leave-to,
     &.v-enter {
-      transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 150%, 0);
       transition: all 800ms cubic-bezier(0.22, 1, 0.36, 1);
     }
 
